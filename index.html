@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dipak Hemane - Web Developer Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <nav id="main-nav">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home" class="section">
+  <div class="content">
+    <div class="intro">
+      <h1>Dipak Hemane</h1>
+      <img src="./profile-photo.jpg_page-0001.jpg" alt="Dipak Hemane - Full Stack Web Developer">
+      <p>Full Stack Web Developer | Frontend & Backend</p>
+      <p class="contact-info">
+        <strong>Email:</strong> dipakhemane123@gmail.com<br>
+        <strong>Phone:</strong> +917559177994<br>
+        <strong>LinkedIn:</strong> <a href="www.linkedin.com/in/dipak-hemane-312aa2244" target="_blank">Your LinkedIn Profile</a>
+      </p>
+    </div>
+    <div class="summary">
+      <h2>Summary of Skills</h2>
+      <p>Proficient in HTML5, CSS3, JavaScript (ES6+), React, Node.js, Express, MongoDB, and more. Experienced in building responsive and scalable web applications.</p>
+      <p>Passionate about creating clean and efficient code, solving problems, and continuous learning.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="content">
+    <h2>About Me</h2>
+    <div class="about-text">
+      <p>I am a web developer with a strong background in frontend and backend development. I hold a Bachelor's degree in mechanical Engineering from [Rashtrasant Tukadoji Maharaj Nagpur University] and i am fresher in this felid.</p>
+      <p>Throughout my coding journey , I have developed expertise in building responsive web applications using modern technologies. My passion for coding and problem-solving drives me to create efficient and user-friendly solutions.</p>
+    </div>
+    <div class="education">
+      <h3>Education</h3>
+      <p><strong>Bachelor of Engineering in Mechanical Engineering(9.09CGPA)</strong><br>
+      [Rashtrasant Tukadoji Maharaj Nagpur University]<br>
+      Graduated: [07/2022]</p>
+      
+    </div>
+    
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="content">
+    <h2>Skills</h2>
+    <ul>
+      <li>C & C++</li>
+      <li>HTML5 & CSS3</li>
+      <li>JavaScript (ES6+)</li>
+      <li>React </li>
+      <li>Node.js & Express</li>
+      <li>MongoDB & SQL Databases</li>
+      <li>Responsive Web Design</li>
+      <li>Version Control (Git)</li>
+      <li>API Integration</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="content">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>StopWatch Web Application</h3>
+      <p>Description: A stopwatch web application functions similarly to a physical stopwatch but operates within a web browser. It offers basic functionalities such as:<br>
+      1.Start: Initiates the stopwatch to begin counting time from zero.<br>
+      2.Stop: Pauses the stopwatch, freezing the current elapsed time.<br>
+      3.eset: Clears the stopwatch, setting the elapsed time back to zero.<br>
+      4.Lap/Split Time: Records intermediate times without stopping the main stopwatch.<br>
+      5.Time Display: Shows the elapsed time in hours, minutes, seconds, and optionally milliseconds.</p>
+      <p>Technical Implementation:</p>
+      <li>HTML Structure: The interface typically includes buttons for Start, Stop, Reset, and possibly Lap/Split Time functionalities. Additionally, a display area shows the current elapsed time.</li>
+      <li>CSS Styling: Enhances the visual appeal of the stopwatch with appropriate fonts, colors, and layouts. CSS can be used to create responsive designs that adjust well on different devices.
+
+      </li>
+      <li>JavaScript Functionality:<br>
+       1.Timer Logic: Uses JavaScript to implement the timing functionality using setInterval() or requestAnimationFrame() for precision.<br>
+       2.Event Handling: Binds events to buttons (Start, Stop, Reset) to control the timer’s behavior.<br>
+       3.Display Updates: Dynamically updates the display to show elapsed time in real-time.<br>
+       4.Conditional Logic: Handles edge cases such as preventing Start when the stopwatch is already running, disabling Stop when the stopwatch is paused, etc.</li>
+      <p> Technologies Used:<br> HTML5, CSS3, JavaScript, Node.js, </p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+    
+    
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="content">
+    <h2>Contact Me</h2>
+    <p>Ready to start your project or have questions? Feel free to contact me.</p>
+    <form action="/submit-form" method="POST">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2024 Dipak Hemane. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
